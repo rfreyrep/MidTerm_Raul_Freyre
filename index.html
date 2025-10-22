@@ -53,7 +53,7 @@ Promise.all([
     { attribution: 'Esri World Imagery' }
   );
 
-  // McDonald's layer 🍔
+  // McDonald's layer 
   const mcdLayer = L.layerGroup();
   mcd.forEach(d => {
     if (d.lat && d.lon) {
@@ -65,7 +65,7 @@ Promise.all([
     }
   });
 
-  // Shell layer ⛽
+  // Shell layer 
   const shellLayer = L.layerGroup();
   shell.forEach(d => {
     if (d.lat && d.lon) {
