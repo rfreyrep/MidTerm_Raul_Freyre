@@ -17,7 +17,7 @@ Both datasets were originally downloaded from POI Factory
 After downloading both datasets as .csv files, the data included hundreds of locations across the U.S. and Canada. To make the analysis manageable and meaningful, I decided to focus exclusively on the state of Wyoming.
 
 Using Python (Pandas), I:
-- Filtered the rows containing `"WY"` in their address or name fields.
+- Filtered the rows containing "WY" in their address or name fields.
 - Cleaned up the column names and removed duplicates.
 - Kept only the key attributes:
   - name – location name  
