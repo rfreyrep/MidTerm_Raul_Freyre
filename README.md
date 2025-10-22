@@ -10,7 +10,7 @@ I selected two point-based datasets:
 - McDonald’s Restaurants (USA)
 - Shell Gas Stations (USA & Canada)
 
-Both datasets were originally downloaded from [POI Factory](https://www.poi-factory.com/).
+Both datasets were originally downloaded from POI Factory
 ---
 
 ## 1. Data Preparation and Cleaning
