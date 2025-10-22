@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Shell [Diesel]-Casper,WY",
+    "lat": 42.820646,
+    "lon": -106.368575,
+    "info": "3930 Denis Dr, Casper,WY 82604-4334, (307) 472-3254"
+  },
+  {
+    "name": "Shell [Diesel]-Casper,WY",
+    "lat": 42.857494,
+    "lon": -106.324821,
+    "info": "707 North Center, Casper,WY 82601, (307) 234-9643"
+  },
+  {
+    "name": "Shell [Diesel]-Douglas,WY",
+    "lat": 42.76045,
+    "lon": -105.40717,
+    "info": "1709 Muirfield Court, Douglas,WY 82633, (307) 358-8020"
+  },
+  {
+    "name": "Shell-Evanston,WY",
+    "lat": 41.26457,
+    "lon": -110.981317,
+    "info": "1948 Harrison Dr, Evanston,WY 82930-3241, (307) 789-0276"
+  },
+  {
+    "name": "Shell [Diesel]-Evanston,WY",
+    "lat": 41.270783,
+    "lon": -110.943968,
+    "info": "259 Bear River Dr, Evanston,WY 82930-2801, (307) 789-7388"
+  },
+  {
+    "name": "Shell [Diesel]-Fort Bridger,WY",
+    "lat": 41.313996,
+    "lon": -110.509372,
+    "info": "Interstate 80 Exit 30 Bigelow Rd, Fort Bridger,WY 82933, (307) 782-3846"
+  },
+  {
+    "name": "Shell [Diesel]-Gillette,WY",
+    "lat": 44.295027,
+    "lon": -105.527795,
+    "info": "106 N Us 14/16, Gillette,WY 82716, (307) 686-1623"
+  },
+  {
+    "name": "Shell [Diesel]-Gillette,WY",
+    "lat": 44.228013,
+    "lon": -105.456974,
+    "info": "10800 State Highway 59 S, Gillette,WY, (307) 686-4144"
+  },
+  {
+    "name": "Shell [Diesel]-Jackson,WY",
+    "lat": 43.475651,
+    "lon": -110.773744,
+    "info": "580 West Broadway Ave, Jackson,WY 83001, (307) 733-2168"
+  },
+  {
+    "name": "Shell [Diesel]-Kaycee,WY",
+    "lat": 43.714335,
+    "lon": -106.639066,
+    "info": "102 Nolan Ave, Kaycee,WY 82639, (719) 836-3699"
+  },
+  {
+    "name": "Shell-Lander,WY",
+    "lat": 42.825347,
+    "lon": -108.717753,
+    "info": "730 E Main St, Lander,WY 82520, (307) 335-5621"
+  },
+  {
+    "name": "Shell [Diesel]-Laramie,WY",
+    "lat": 41.299216,
+    "lon": -105.594527,
+    "info": "1507 S 3rd St, Laramie,WY 82070-4433, (307) 745-8820"
+  },
+  {
+    "name": "Shell [Diesel]-Laramie,WY",
+    "lat": 41.324565,
+    "lon": -105.575782,
+    "info": "1524 Reynolds St, Laramie,WY 82072-2372, (307) 745-7300"
+  },
+  {
+    "name": "Shell [Diesel]-Laramie,WY",
+    "lat": 41.309201,
+    "lon": -105.629721,
+    "info": "2471 Jackson St, Laramie,WY 82070, (307) 721-0014"
+  },
+  {
+    "name": "Shell [Diesel]-Rock Springs,WY",
+    "lat": 41.555723,
+    "lon": -109.310173,
+    "info": "8 Purple Sage Rd, Rock Springs,WY 82901, (307) 362-2171"
+  },
+  {
+    "name": "Shell-Walcott,WY",
+    "lat": 41.743471,
+    "lon": -106.831255,
+    "info": "I-80 & Walcott Junction Exit, Walcott,WY 82335, (307) 324-3920"
+  }
+]

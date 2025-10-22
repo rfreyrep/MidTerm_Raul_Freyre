@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>McDonald's and Shell Stations in Wyoming</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    crossorigin=""
+  />
+  <style>
+    html, body, #map { height: 100%; margin: 0; }
+    .info {
+      background: white;
+      padding: 8px 10px;
+      border-radius: 6px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.15);
+      font: 14px/1.4 system-ui, sans-serif;
+    }
+    .legend .dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 6px;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+// Load both JSON datasets
+Promise.all([
+  fetch("mcdonalds_wy.json").then(res => res.json()),
+  fetch("shell_wy.json").then(res => res.json())
+]).then(([mcd, shell]) => {
+
+  // Initialize the map centered in Wyoming
+  const map = L.map('map').setView([42.9, -107.5], 7);
+
+  // Basemap layers
+  const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  const esriSat = L.tileLayer(
+    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    { attribution: 'Esri World Imagery' }
+  );
+
+  // McDonald's layer 🍔
+  const mcdLayer = L.layerGroup();
+  mcd.forEach(d => {
+    if (d.lat && d.lon) {
+      L.circleMarker([+d.lat, +d.lon], {
+        radius: 6, color: '#D62828', fillColor: '#F77F00', fillOpacity: 0.9
+      })
+      .bindPopup(`<b>${d.name}</b><br>${d.info}`)
+      .addTo(mcdLayer);
+    }
+  });
+
+  // Shell layer ⛽
+  const shellLayer = L.layerGroup();
+  shell.forEach(d => {
+    if (d.lat && d.lon) {
+      L.circleMarker([+d.lat, +d.lon], {
+        radius: 6, color: '#264653', fillColor: '#2A9D8F', fillOpacity: 0.9
+      })
+      .bindPopup(`<b>${d.name}</b><br>${d.info}`)
+      .addTo(shellLayer);
+    }
+  });
+
+  mcdLayer.addTo(map);
+  shellLayer.addTo(map);
+
+  // Add layer controls (Street/Satellite + dataset toggle)
+  L.control.layers(
+    { "Street (OSM)": osm, "Satellite (Esri)": esriSat },
+    { "McDonald's": mcdLayer, "Shell Stations": shellLayer },
+    { collapsed: false }
+  ).addTo(map);
+
+  // Simple proximity analysis (within 2 km)
+  function haversine(lat1, lon1, lat2, lon2) {
+    const R = 6371e3;
+    const toRad = x => x * Math.PI / 180;
+    const dLat = toRad(lat2 - lat1);
+    const dLon = toRad(lon2 - lon1);
+    const a = Math.sin(dLat/2)**2 +
+              Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+              Math.sin(dLon/2)**2;
+    return 2 * R * Math.asin(Math.sqrt(a));
+  }
+
+  let nearbyPairs = 0;
+  shell.forEach(s => {
+    mcd.forEach(m => {
+      if (s.lat && s.lon && m.lat && m.lon) {
+        const dist = haversine(+s.lat, +s.lon, +m.lat, +m.lon);
+        if (dist < 2000) nearbyPairs++;
+      }
+    });
+  });
+
+  // Display analysis info box
+  const info = L.control({ position: 'topright' });
+  info.onAdd = function() {
+    const div = L.DomUtil.create('div', 'info');
+    div.innerHTML = `
+      <b>Proximity Analysis</b><br>
+      McDonald's: ${mcd.length}<br>
+      Shell Stations: ${shell.length}<br>
+      Pairs within 2 km: ${nearbyPairs}<br>
+      <div class="legend" style="margin-top:6px;">
+        <span class="dot" style="background:#F77F00"></span>McDonald's
+        &nbsp;&nbsp;
+        <span class="dot" style="background:#2A9D8F"></span>Shell
+      </div>`;
+    return div;
+  };
+  info.addTo(map);
+
+});
+</script>
+</body>
+</html>

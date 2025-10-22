@@ -1,0 +1,176 @@
+[
+  {
+    "name": "McDonalds-Buffalo,WY",
+    "lat": 44.35437,
+    "lon": -106.69161,
+    "info": "480 E Hart St [US Hwy 16], Buffalo,WY, (307) 684-7036|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds PlayPlace-Casper,WY",
+    "lat": 42.85229,
+    "lon": -106.2709,
+    "info": "40 Se Wyoming Blvd, Casper,WY, (307) 237-8320|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds-Casper,WY",
+    "lat": 42.819349,
+    "lon": -106.369165,
+    "info": "4010 Plaza Drive, Casper,WY, (307) 265-5121|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds-Casper,WY",
+    "lat": 42.8580455,
+    "lon": -106.3319767,
+    "info": "600 W F St, Casper,WY 82601-1300, (307) 265-2363|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds [WM]-Cheyenne,WY",
+    "lat": 41.16034,
+    "lon": -104.79118,
+    "info": "2032 Dell Range Blvd [WM], Cheyenne,WY, (307) 778-8232|Services:none"
+  },
+  {
+    "name": "McDonalds PlayPlace-Cheyenne,WY",
+    "lat": 41.13824,
+    "lon": -104.78667,
+    "info": "2535 E Lincolnway, Cheyenne,WY, (307) 632-1222|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds PlayPlace-Cheyenne,WY",
+    "lat": 41.16021,
+    "lon": -104.76727,
+    "info": "3410 Dell Range Blvd, Cheyenne,WY, (307) 775-0286|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds-Cheyenne,WY",
+    "lat": 41.09982,
+    "lon": -104.85303,
+    "info": "4000 W College Dr, Cheyenne,WY, (307) 637-8009|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds PlayPlace-Cheyenne,WY",
+    "lat": 41.171443,
+    "lon": -104.829049,
+    "info": "5701 N Yelloswtone Rd, Cheyenne,WY, (307) 634-2757|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds-Cody,WY",
+    "lat": 44.51706,
+    "lon": -109.05405,
+    "info": "2005 17th St, Cody,WY, (307) 587-5900|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds PlayPlace-Douglas,WY",
+    "lat": 42.76311,
+    "lon": -105.40102,
+    "info": "1090 W Yellowstone Hwy, Douglas,WY, (307) 358-9700|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds PlayPlace-Evanston,WY",
+    "lat": 41.26294,
+    "lon": -110.9571,
+    "info": "212 Front St, Evanston,WY, (307) 789-0595|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds-Gillette,WY",
+    "lat": 44.2910365,
+    "lon": -105.53065,
+    "info": "2112 Westover Rd, Gillette,WY 82718, (307) 682-1134|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds-Gillette,WY",
+    "lat": 44.28179,
+    "lon": -105.49403,
+    "info": "806 Camel Dr, Gillette,WY, (307) 686-0606|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds PlayPlace-Green River,WY",
+    "lat": 41.521184,
+    "lon": -109.464574,
+    "info": "599 E 4th S, Green River,WY, (307) 875-7868|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds-Jackson,WY",
+    "lat": 43.473316,
+    "lon": -110.786801,
+    "info": "1110 W Broadway, Jackson,WY, (307) 733-7444|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds PlayPlace-Lander,WY",
+    "lat": 42.831939,
+    "lon": -108.723817,
+    "info": "235 McFarlane Dr, Lander,WY, (307) 332-3955|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds-Laramie,WY",
+    "lat": 41.308737,
+    "lon": -105.618085,
+    "info": "1666 Snowy Range Rd, Laramie,WY, (307) 745-0006|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds-Laramie,WY",
+    "lat": 41.308656,
+    "lon": -105.55707,
+    "info": "3000 Grand Ave, Laramie,WY, (307) 745-3600|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds-Powell,WY",
+    "lat": 44.75309,
+    "lon": -108.7529,
+    "info": "111 N Evarts St, Powell,WY, (307) 754-7918|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds PlayPlace-Rawlins,WY",
+    "lat": 41.79232,
+    "lon": -107.21582,
+    "info": "2225 E Cedar St, Rawlins,WY, (307) 324-7377|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds PlayPlace-Riverton,WY",
+    "lat": 43.032001,
+    "lon": -108.379929,
+    "info": "813 N Federal Blvd, Riverton,WY, (307) 856-5068|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds-Rock Springs,WY",
+    "lat": 41.610117,
+    "lon": -109.230407,
+    "info": "1607 Elk St, Rock Springs,WY, (307) 362-8883|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds PlayPlace-Rock Springs,WY",
+    "lat": 41.576729,
+    "lon": -109.255867,
+    "info": "1687 Sunset Dr, Rock Springs,WY, (307) 382-3080|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds-Sheridan,WY",
+    "lat": 44.774388,
+    "lon": -106.942701,
+    "info": "2146 Coffeen Ave, Sheridan,WY, (307) 673-1100|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds PlayPlace-Sheridan,WY",
+    "lat": 44.80465,
+    "lon": -106.95589,
+    "info": "2590 N Main St, Sheridan,WY, (307) 672-5900|Services:dt/wifi/pp"
+  },
+  {
+    "name": "McDonalds-Thermopolis,WY",
+    "lat": 43.638057,
+    "lon": -108.212804,
+    "info": "611 Shoshoni St, Thermopolis,WY, (307) 864-2323|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds-Torrington,WY",
+    "lat": 42.05891,
+    "lon": -104.17485,
+    "info": "800 East Valley Hwy, Torrington,WY 82240, (307) 532-0120|Services:dt/wifi"
+  },
+  {
+    "name": "McDonalds-Worland,WY",
+    "lat": 44.016714,
+    "lon": -107.945514,
+    "info": "1700 Big Horn Ave, Worland,WY, (307) 347-2790|Services:dt/wifi"
+  }
+]
