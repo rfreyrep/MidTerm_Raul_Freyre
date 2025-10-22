@@ -87,7 +87,7 @@ Overall, the spatial relationship highlights how fast-food and fuel retail chain
 The project can be hosted directly on GitHub Pages.  
 Once uploaded, the map can be viewed online by navigating to:  
 
-<https://rfreyrep.github.io/MidTerm_Raul_Freyre/>
+<  >
 
 
 ---
