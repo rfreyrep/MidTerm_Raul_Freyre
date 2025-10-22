@@ -45,7 +45,7 @@ The map includes:
 ---
 
 ## 3. Analytical Approach
-The analysis aimed to explore whether McDonald’s restaurants tend to be located near Shell gas stations — reflecting a potential clustering of services that cater to travelers.
+The analysis aimed to explore whether McDonald’s restaurants tend to be located near Shell gas stations, reflecting a potential clustering of services that cater to travelers.
 
 To evaluate this, I implemented a simple proximity analysis using the Haversine distance formula, which calculates the great-circle distance between two coordinates on Earth.
 
